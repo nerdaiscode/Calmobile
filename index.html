@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover, interactive-widget=resizes-content"
+    />
+    <meta name="description" content="Cuenta calorías y macros desde el móvil: buscador, escáner de códigos de barras, recetas y progreso." />
+    <meta name="theme-color" content="#f6f2f5" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#17101c" media="(prefers-color-scheme: dark)" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="CalMobile" />
+    <meta name="format-detection" content="telephone=no" />
+    <link rel="icon" href="/Calmobile/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/Calmobile/apple-touch-icon.png" />
+    <title>CalMobile</title>
+    <script>
+      // Apply the last-used theme before first paint (settings live in IndexedDB and load later).
+      (function () {
+        try {
+          var pref = localStorage.getItem('calmobile:theme') || 'system';
+          var dark = pref === 'dark' || (pref === 'system' && matchMedia('(prefers-color-scheme: dark)').matches);
+          if (dark) document.documentElement.classList.add('dark');
+        } catch (e) {}
+      })();
+    </script>
+    <script type="module" crossorigin src="/Calmobile/assets/index-BnfilyzT.js"></script>
+    <link rel="modulepreload" crossorigin href="/Calmobile/assets/rolldown-runtime-XKyaHtl9.js">
+    <link rel="modulepreload" crossorigin href="/Calmobile/assets/format-9iH8LhR5.js">
+    <link rel="modulepreload" crossorigin href="/Calmobile/assets/preload-helper-BzYHnBsR.js">
+    <link rel="modulepreload" crossorigin href="/Calmobile/assets/dist-BNQ5r8k5.js">
+    <link rel="modulepreload" crossorigin href="/Calmobile/assets/db-CcepWp78.js">
+    <link rel="stylesheet" crossorigin href="/Calmobile/assets/index-CToNysFG.css">
+  <link rel="manifest" href="/Calmobile/manifest.webmanifest"></head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

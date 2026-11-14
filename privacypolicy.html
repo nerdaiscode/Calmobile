@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Política de privacidad · CalMobile</title>
+<link rel="canonical" href="https://nerdaiscode.github.io/Calmobile/privacidad.html">
+<style>
+  :root { --bg: #f6f2f5; --card: #ffffff; --ink: #1e1524; --muted: #5f5566; --brand: #4b1f5c; --line: #e7dfe9; --on-brand: #ffffff; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #17101c; --card: #221829; --ink: #f4eff6; --muted: #b3a8ba; --brand: #d6a9ee; --line: #33263c; --on-brand: #1e1524; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.55 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 40rem; margin: 0 auto; padding: 1.25rem 1.1rem 3rem; }
+  h1 { font-size: 1.7rem; line-height: 1.15; margin: 0.5rem 0 0.25rem; }
+  h2 { font-size: 1.15rem; margin: 2rem 0 0.4rem; color: var(--brand); }
+  p, li { margin: 0.4rem 0; }
+  ul { padding-left: 1.2rem; }
+  a { color: var(--brand); }
+  .meta { color: var(--muted); font-size: 0.9rem; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 0.2rem 1rem 0.7rem; margin-top: 1rem; }
+  .button { display: inline-block; background: var(--brand); color: var(--on-brand); border-radius: 999px; padding: 0.75rem 1.4rem; font-weight: 600; text-decoration: none; margin-top: 0.6rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Política de privacidad de CalMobile</h1>
+  <p class="meta">Última actualización: 12 de noviembre de 2026</p>
+
+  <p>La política completa está en una sola página: <strong>qué datos guarda la app, cuándo se conecta a Internet y cómo
+  borrar tus datos</strong>. Aquí tienes el resumen y, justo debajo, lo que exige Health Connect.</p>
+  <p><a class="button" href="https://nerdaiscode.github.io/Calmobile/privacidad.html">Leer la política completa</a></p>
+
+  <h2>En pocas palabras</h2>
+  <div class="card">
+    <ul>
+      <li>Todo lo que apuntas se guarda <strong>en tu teléfono</strong>. CalMobile no tiene cuentas ni analíticas, y tu
+      diario, tu perfil y tus datos de salud no salen del teléfono.</li>
+      <li>La IA para apuntar con una foto o un texto es opcional y solo está en las versiones que la traen. La foto o el texto va al
+      servidor de CalMobile, en Cloudflare, y desde ahí a Anthropic. CalMobile no los guarda; solo cuenta cuántas veces se usa
+      cada instalación (por un número aleatorio, sin nombre ni correo) y, si se le ha concedido un plan, guarda ese plan y su fecha.
+      Detalle en la política completa.</li>
+      <li>La app solo se conecta a Internet para buscar productos y escanear códigos de barras (Open Food Facts), mostrar
+      la foto de un producto cuando abres su ficha (la pide al servidor de imágenes de Open Food Facts, que ve tu dirección IP),
+      descargar el catálogo y las fotos de las recetas, mirar si hay una versión nueva y, cuando tú lo pides, usar la IA para
+      apuntar con una foto o un texto.</li>
+      <li>La búsqueda de versiones nuevas se hace como máximo una vez por hora y no envía ningún dato personal.</li>
+      <li>Tus datos de salud nunca se usan para publicidad ni se comparten.</li>
+    </ul>
+  </div>
+
+  <h2>Datos de salud (Health Connect)</h2>
+  <p>Si lo activas en Perfil → Relojes y salud, CalMobile pide permiso a Health Connect (Android) para
+  <strong>leer</strong> los datos que tus relojes y apps de actividad ya han guardado allí: entrenamientos, calorías
+  activas y totales, pasos, distancia, sueño, peso, grasa corporal, y el historial anterior a 30 días (este último solo si
+  concedes ese permiso adicional).</p>
+  <ul>
+    <li>Solo se piden permisos de <strong>lectura</strong>. CalMobile no escribe ni modifica nada en Health Connect.</li>
+    <li>Se usan únicamente para mostrarte tu actividad, sumar el ejercicio a tu presupuesto diario si tú lo eliges y
+    calcular tu gasto y la evolución de tu peso.</li>
+    <li>Se guardan solo en la memoria de tu teléfono. <strong>No se venden, no se comparten con terceros y no se usan para
+    publicidad.</strong> La copia automática de Android (Google Drive) está desactivada para la app.</li>
+    <li><strong>Retirar el permiso:</strong> en Health Connect → <em>Permisos de las apps</em> → <em>CalMobile</em> →
+    <em>Eliminar acceso</em>. Desde ese momento CalMobile deja de leer datos.</li>
+    <li><strong>Borrar lo importado:</strong> en CalMobile, Perfil → Relojes y salud → <em>Desconectar</em> → <em>Borrar
+    también los datos importados</em>. También puedes borrar todo desde Ajustes → Borrar todos los datos, o desinstalando
+    la app.</li>
+  </ul>
+
+  <p class="meta" style="margin-top:2rem"><a href="https://nerdaiscode.github.io/Calmobile/privacidad.html">Política completa</a> ·
+  <a href="https://nerdaiscode.github.io/Calmobile/terminos.html">Términos de uso</a></p>
+</main>
+</body>
+</html>

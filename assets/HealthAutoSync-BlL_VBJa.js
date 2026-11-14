@@ -1,0 +1,1 @@
+import{s as e}from"./health-yzC6_zyd.js";function t(){return e(),null}export{t as default};

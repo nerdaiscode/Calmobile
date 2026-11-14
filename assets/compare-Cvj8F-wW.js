@@ -1,0 +1,1 @@
+import{F as e,pt as t}from"./useSummaryData-rRGvFzF9.js";function n(n){return e(n.restricted,n.range,t(n.range,n.anchor,-1),n.today)===`open`}export{n as t};
