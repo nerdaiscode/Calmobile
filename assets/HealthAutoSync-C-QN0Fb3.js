@@ -1,0 +1,1 @@
+import{s as e}from"./health-D8rbP7-Q.js";function t(){return e(),null}export{t as default};

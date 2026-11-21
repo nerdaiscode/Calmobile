@@ -1,0 +1,1 @@
+import{t as e}from"./db-BbR0BFRL.js";import{Qn as t}from"./index-B9TJ-5EW.js";import{a as n,p as r}from"./model-B_HdoChA.js";async function i(){let[i,{meals:a}]=await Promise.all([e.kv.get(n),t()]);return r(i?.value,a)}async function a(t){await e.kv.put({key:n,value:t})}export{a as n,i as t};

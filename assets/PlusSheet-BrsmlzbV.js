@@ -1,0 +1,1 @@
+import{X as e,in as t}from"./index-B9TJ-5EW.js";import{t as n}from"./PaywallBody-bh4hZ3m_.js";var r=t();function i({open:t,onClose:i,feature:a}){return(0,r.jsx)(e,{open:t,onClose:i,title:`CalMobile Plus`,size:`tall`,children:(0,r.jsx)(n,{feature:a,onUnlocked:i,onDismiss:i,inSheet:!0})})}export{i as t};

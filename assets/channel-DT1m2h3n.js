@@ -1,0 +1,1 @@
+import{Li as e,Ti as t}from"./index-B9TJ-5EW.js";var n=null;function r(){return e()?(n??=(async()=>{try{return(await t().getInfo()).channel===`play`?`play`:`github`}catch{return n=null,`github`}})(),n):Promise.resolve(`web`)}export{r as t};

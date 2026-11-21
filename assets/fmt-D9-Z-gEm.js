@@ -1,0 +1,1 @@
+import{sn as e}from"./index-B9TJ-5EW.js";function t(t){let n=Math.round(t*10)/10;return`${n>0?`+`:n<0?`−`:``}${e(Math.abs(n))} kg`}new Intl.DateTimeFormat(`es-ES`,{day:`numeric`,month:`long`}),new Intl.DateTimeFormat(`es-ES`,{day:`numeric`,month:`long`,year:`numeric`});export{t};
