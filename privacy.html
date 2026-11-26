@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Privacy policy · CalMobile</title>
+<link rel="canonical" href="https://nerdaiscode.github.io/Calmobile/privacy.html">
+<link rel="alternate" hreflang="es" href="https://nerdaiscode.github.io/Calmobile/privacidad.html">
+<style>
+  :root { --bg: #f6f2f5; --card: #ffffff; --ink: #1e1524; --muted: #5f5566; --brand: #4b1f5c; --line: #e7dfe9; --sign: #ffd43a; --on-sign: #2a1233; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #17101c; --card: #221829; --ink: #f4eff6; --muted: #b3a8ba; --brand: #d6a9ee; --line: #33263c; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.55 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 40rem; margin: 0 auto; padding: 1.25rem 1.1rem 3rem; }
+  h1 { font-size: 1.7rem; line-height: 1.15; margin: 0.5rem 0 0.25rem; }
+  h2 { font-size: 1.15rem; margin: 2rem 0 0.4rem; color: var(--brand); }
+  p, li { margin: 0.4rem 0; }
+  ul { padding-left: 1.2rem; }
+  a { color: var(--brand); }
+  .meta { color: var(--muted); font-size: 0.9rem; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 0.2rem 1rem 0.7rem; margin-top: 1rem; }
+  .draft { background: var(--sign); color: var(--on-sign); border-radius: 14px; padding: 0.7rem 1rem; margin: 1rem 0; font-weight: 600; }
+  .owner { border: 2px dashed var(--brand); border-radius: 14px; padding: 0.3rem 1rem 0.6rem; margin: 1rem 0; background: var(--card); }
+  .future { border-left: 4px solid var(--brand); padding-left: 0.9rem; margin-top: 1rem; }
+  table { width: 100%; border-collapse: collapse; margin-top: 0.6rem; font-size: 0.93rem; }
+  th, td { text-align: left; vertical-align: top; padding: 0.5rem 0.4rem; border-bottom: 1px solid var(--line); }
+  th { color: var(--muted); font-weight: 600; }
+  .scroll { overflow-x: auto; }
+</style>
+</head>
+<body>
+<main>
+  <h1>CalMobile privacy policy</h1>
+  <p class="meta">Last updated: November 15, 2026</p>
+  <p class="meta">English translation; the Spanish version prevails. <a href="privacidad.html" hreflang="es">Versión en español</a>.</p>
+
+  <div class="owner">
+    <h2 style="margin-top:0.6rem">Who is responsible</h2>
+    <p><strong>Owner:</strong> skanZoft</p>
+    <p><strong>Privacy contact:</strong> <a href="mailto:eskan@eskan.es">eskan@eskan.es</a></p>
+    <p class="meta">These two details are still to be filled in before publishing in a store.</p>
+  </div>
+
+  <h2>In a few words</h2>
+  <div class="card">
+    <ul>
+      <li>Everything you log is stored <strong>on your phone</strong>. There is no account.</li>
+      <li>Only if you use AI to log with a photo or a text, that photo or text leaves the phone (see "Logging with AI").
+      Nothing is stored outside your phone.</li>
+      <li>There are no analytics, no trackers and, today, no ads.</li>
+      <li>The app connects to the Internet only to search for products, show a product photo, download the catalog and the recipe photos,
+      check whether there is a new version and, when you ask for it, use AI to log with a photo or a text.</li>
+      <li>Your health data is never used for advertising or shared.</li>
+    </ul>
+  </div>
+
+  <h2>What data the app stores and where</h2>
+  <p>CalMobile stores in the device's own database (IndexedDB), inside the app:</p>
+  <ul>
+    <li>Your diary: what you eat, the amounts, water and exercise.</li>
+    <li>Your profile and your goals: sex, year of birth, height, weight, activity level and goal.</li>
+    <li>Your own foods and recipes, saved meals, weekly menus and shopping list.</li>
+    <li>Your settings.</li>
+    <li>If you use Health Connect: the data you import (see below).</li>
+    <li>Technical data of the device itself: the date of the first use of the app, whether you accepted the notice of the built-in AI,
+    a random installation number (it is used with the built-in AI, to count your uses and to know which plan you have; you can see it in
+    Profile → About → Installation code) and the server's last answer about your CalMobile plan (Free or Plus) and until when.
+    If you turn on automatic backup (Plus, Android app only): the phone folder you chose and when the last copy was made.</li>
+  </ul>
+  <p>None of this is sent to any server of ours: your diary, your profile and your settings do not leave the phone. (CalMobile only has
+  a small server for the built-in AI, which only sees what you send to be analyzed; see "Logging with AI".) On Android, the system's own automatic backup to Google Drive
+  and the transfer between phones are turned off for the app.</p>
+
+  <h2>When it connects to the Internet and what it sends</h2>
+  <div class="scroll">
+  <table>
+    <thead><tr><th>What for</th><th>To whom</th><th>What is sent</th></tr></thead>
+    <tbody>
+      <tr><td>Searching for a product or scanning a barcode</td><td>Open Food Facts</td><td>The searched text or the barcode, with the name and version of the app. No personal or health data.</td></tr>
+      <tr><td>Showing the photo of a supermarket product (on its page or in the result lists)</td><td>Open Food Facts (image server, images.openfoodfacts.org)</td><td>The image request. As on any website, their server sees your IP address and which photo you ask for, that is, which product you are looking at; the app does not send the address of the screen as the origin. Offline nothing is requested and the photo is not shown. The "Correct on Open Food Facts" link opens their website in the browser, and their policy applies there.</td></tr>
+      <tr><td>Supermarket catalog (web version) and recipe photos</td><td>GitHub Pages (where the web app is published)</td><td>The file request. As on any website, the server sees your IP address.</td></tr>
+      <tr><td>Telling you about a new version</td><td>GitHub (direct download version) or Google Play (store version)</td><td>The query for the latest version, with no identifiers of yours. In the direct download version, the update file is only downloaded when you ask for it.</td></tr>
+      <tr><td>Logging with AI, and checking your plan (optional, if your version of the app includes AI)</td><td>The CalMobile server (on Cloudflare) and, from there, Anthropic</td><td>When analyzing (only when you press it and have accepted the notice): the (reduced) photo or the text, the random installation number and the app version. Also, the app asks the server which plan your installation has (when opening it and when opening Profile or the AI screen): it only sends the installation number. Nothing from Health Connect.</td></tr>
+    </tbody>
+  </table>
+  </div>
+  <p>Outside this list the app sends nothing. Voice dictation, if your browser offers it, is processed by your browser's
+  speech service, not by CalMobile.</p>
+
+  <h2>Health Connect (Android)</h2>
+  <p>If you turn it on in Profile → Watches and health, CalMobile asks for permission to <strong>read</strong> what your
+  watches and activity apps have already saved in Health Connect: workouts, active and total calories, steps, distance,
+  sleep, weight, body fat, and history older than 30 days (the latter only if you grant that additional permission).</p>
+  <p><strong>What each piece of data is used for:</strong></p>
+  <ul>
+    <li><strong>Workouts</strong>: they appear in your diary on their own (Today → Exercise), with their duration, distance and calories, without logging them by hand.</li>
+    <li><strong>Active calories</strong>: those of each workout and of the day (Today → Your day). With "Add exercise" they are added to what you can eat today.</li>
+    <li><strong>Total calories</strong>: what you have burned today compared with what you have eaten (Today → "Burned today"). With "Calculate with: Watch", your daily goal comes from your real expenditure.</li>
+    <li><strong>Steps</strong>: your steps for the day compared with your step goal (Today → Your day; Summary → Activity).</li>
+    <li><strong>Distance</strong>: what you walk or run each day and in each workout (Summary → Activity).</li>
+    <li><strong>Sleep</strong>: last night's sleep compared with your sleep goal (Today → Your day) and the duration and stages of each night (Summary → Sleep).</li>
+    <li><strong>Weight and body fat</strong>: the weigh-ins from your scale, in your weight progress and your goal (Summary → Weight).</li>
+    <li><strong>History older than 30 days</strong>: on the first connection it brings up to 90 days, so your diary and your summaries have history from the start.</li>
+  </ul>
+  <ul>
+    <li>Read-only: CalMobile writes nothing to Health Connect.</li>
+    <li>The data stays on your phone and is used only for what the list above says.</li>
+    <li><strong>It is not used for advertising, it is not sold and it is not passed to third parties</strong>, nor to any ad SDK.</li>
+    <li>You can withdraw the permission at any time from Health Connect, and delete what was imported from Profile → Watches and health → Disconnect → "Also delete imported data".</li>
+  </ul>
+
+  <h2>Camera</h2>
+  <p>The camera is used only to scan barcodes and to take photos of meals when you ask for it. The scanner image is
+  processed on the phone. A photo only leaves the phone if you send it to be analyzed with AI (see "Logging with AI").</p>
+
+  <h2>Logging with AI</h2>
+  <p>It is optional: you can use all of CalMobile without it, and it only exists in the versions of the app that include it. It is used to calculate the
+  calories and macros of a photo of your plate or of a text you write. You do not need any account or key: the photo or the text
+  goes <strong>to the CalMobile server, hosted on Cloudflare, and from there to Anthropic</strong>, which analyzes it. The first
+  time, we explain it to you and you have to accept it.</p>
+  <ul>
+    <li>Only what you decide to analyze is sent (a photo reduced to about one megapixel, or a text, and the hint you write), at the
+    moment you press analyze. Your diary, your profile and Health Connect data are never sent.</li>
+    <li>The photo, the text and the answer are processed only to give you back the result: <strong>CalMobile does not store or log them</strong>.
+    Anthropic processes what it receives under its own terms (anthropic.com/legal/privacy).</li>
+    <li>To set a limit on uses and prevent abuse, the server stores only <strong>counters</strong>: how many times
+    each installation has used the AI (identified by a random number that does not identify you), how many advanced analyses ("Refine") that
+    installation has used this week (the counter expires by itself after a few days) and how many times each network connection has
+    (of the IP address only an irreversible fingerprint is stored, and the counter expires after two days). The free trial counter of
+    each installation is kept for up to a year.</li>
+    <li>If your installation has been granted a plan (for example, Plus as a gift or through a subscription), the server
+    also stores <strong>that plan and the date until which it is valid</strong>, next to the installation number. It does not store your name or your
+    email, and does not need them: the plan is not tied to you, but to that installation. If you reinstall the app or delete its data from Android,
+    the number changes and that new installation starts without a plan.</li>
+    <li>The app installed from Google Play may ask Google for an integrity certificate of the device and the app, which our server
+    checks with Google and of which it stores only the result, tied to the installation number, for 30 days.</li>
+    <li>Cloudflare, like any hosting provider, sees the IP address of the connection.</li>
+    <li>The result is an estimate: check it before adding it to your diary.</li>
+  </ul>
+
+  <h2>Backups</h2>
+  <p>The copies you export from the app are files that you keep, wherever you want. They contain your diary and your
+  settings, but not the installation number of the built-in AI or your plan. You decide who to share them with.</p>
+  <p><strong>Automatic backup (CalMobile Plus, Android app only).</strong> If you turn it on, you choose a folder on your phone and the app
+  saves in it, once a day, a file with the same copy that you export by hand (<code>calmobile-auto-YYYY-MM-DD.json</code>), and keeps
+  the last 7. It is a file on your phone, in that folder: <strong>it is not sent to our servers or anywhere else</strong>,
+  and the app only has access to that folder (Android asks you for it with its picker; no storage permission is needed).
+  You can change the folder or turn it off whenever you want; the files already saved stay where they are and you delete them yourself.
+  Since it lives on the phone, it protects you if you uninstall the app or its data gets damaged, not if you lose the phone: for that, save from time to
+  time a manual copy outside the phone (for example, in Drive).</p>
+
+  <h2>Purchases: CalMobile Plus</h2>
+  <ul>
+    <li>CalMobile Plus is bought inside the app installed from Google Play. <strong>Payment is handled by Google Play</strong>:
+    CalMobile does not see or store your card or your payment details.</li>
+    <li>To activate Plus, the app sends to our server the <strong>purchase receipt</strong> that Google Play gives it (a
+    purchase identifier, without your name or your email) together with the random number of your installation. The server checks it
+    directly with Google and stores that identifier, the plan, its status and the date until which it is valid, for as long as the subscription
+    exists. No other third-party service is involved, and your diary, your profile and health data are not sent.</li>
+    <li>No account is needed: if you change phones or reinstall the app, "Restore purchases" recovers Plus with your Google Play account.</li>
+    <li>If you use an access code ("I have a code"), the server only stores that that installation has Plus and until when.
+    The code is not stored on the phone.</li>
+    <li>To cancel a subscription: Google Play → Payments and subscriptions → Subscriptions. The conditions of the free trial,
+    renewal and withdrawal are in the <a href="terms.html">terms of use</a>.</li>
+  </ul>
+
+  <h2>If one day there are ads</h2>
+  <div class="future">
+    <p><em>Today CalMobile shows no ads. If this changes, this section will be updated before there are any ads.</em></p>
+    <ul>
+      <li>Before the first ad, in the European Economic Area you will be asked for consent with a certified
+      form, and you will always be able to change it from the app.</li>
+      <li>Ads could use your device's advertising identifier, which you can reset or turn off
+      in the Android settings.</li>
+      <li>There will never be ads while you log what you eat.</li>
+      <li><strong>Health Connect data, your weight, your diary and your profile will never be given to an ad network.</strong></li>
+    </ul>
+  </div>
+
+  <h2>Your rights and how to delete your data</h2>
+  <ul>
+    <li>Your data is on your phone, under your control: you can see it, export it (Profile → Backup) and
+    delete it (Profile → Settings → Delete all data, or by uninstalling the app).</li>
+    <li>On our server there is only data tied to the random number of your installation, with no name or email: the counters of the
+    built-in AI, your plan and, if you subscribe, the purchase receipt. The counters expire by themselves. If you want us to
+    <strong>delete what the server stores about your installation</strong>, or to exercise your rights of access, rectification, erasure,
+    objection, restriction or portability, write to <a href="mailto:eskan@eskan.es">eskan@eskan.es</a> stating your installation code
+    (Profile → About → Installation code). Deleting the receipt of an active subscription means that installation no longer has Plus;
+    the subscription itself is cancelled in Google Play.</li>
+    <li>You have the right to lodge a complaint with the Spanish Data Protection Agency (aepd.es).</li>
+  </ul>
+
+  <h2>Minors and changes</h2>
+  <p>CalMobile is meant for adults and is not aimed at people under 18. If this policy changes, it will be updated here and in the date above.</p>
+
+  <p class="meta" style="margin-top:2rem"><a href="terms.html">Terms of use</a></p>
+</main>
+</body>
+</html>

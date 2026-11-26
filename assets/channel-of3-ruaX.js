@@ -1,0 +1,1 @@
+import{Pi as e,Si as t}from"./index-Bwlk5y3P.js";var n=null;function r(){return e()?(n??=(async()=>{try{return(await t().getInfo()).channel===`play`?`play`:`github`}catch{return n=null,`github`}})(),n):Promise.resolve(`web`)}export{r as t};

@@ -1,0 +1,1 @@
+import"./index-Bwlk5y3P.js";import"./format-C_g_r9ht.js";import{r as e}from"./core-CoOEuPV7.js";var t=()=>e()===`en`?[`M`,`T`,`W`,`T`,`F`,`S`,`S`]:[`L`,`M`,`X`,`J`,`V`,`S`,`D`];export{t};

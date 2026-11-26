@@ -1,0 +1,1 @@
+import{d as e}from"./core-CoOEuPV7.js";import{Sn as t,rt as n}from"./index-Bwlk5y3P.js";import{t as r}from"./PaywallBody-Wd8vYYPL.js";var i=t();function a({open:t,onClose:a,feature:o}){return(0,i.jsx)(n,{open:t,onClose:a,title:e(`CalMobile Plus`),size:`tall`,children:(0,i.jsx)(r,{feature:o,onUnlocked:a,onDismiss:a,inSheet:!0})})}export{a as t};

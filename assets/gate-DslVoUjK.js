@@ -1,0 +1,1 @@
+import{t as e}from"./dexie-react-hooks-B2PhXort.js";import{t}from"./db-BbR0BFRL.js";var n=`fasting:settings`;function r(e,t=new Date){let n=e?.birthYear;return typeof n!=`number`||!Number.isFinite(n)?!1:t.getFullYear()-n>=19}function i(){return e(async()=>{let e=(await t.kv.get(n))?.value;return e?.on===!0&&typeof e.acceptedAt==`string`},[])}export{r as n,i as r,n as t};

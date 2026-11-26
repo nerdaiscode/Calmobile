@@ -1,0 +1,1 @@
+import{s as e}from"./health-CbvGKv2u.js";function t(){return e(),null}export{t as default};
